@@ -77,4 +77,4 @@ Type the following command to run the demo for CTD-D:
 ## Data
 All the data except 'Hyperspectral Image data' used in this paper are included in 'data' folder in this github directory.
 
-You can download 'Hyperspectral Image data' from http://52.32.77.154/repository/isetbio/resources/scenes/hyperspectral/stanford_database/faces3m/LoResFemale4/20160419/LoResFemale4-20160419-mat.mat.
+You can download 'Hyperspectral Image data' from https://datalab.snu.ac.kr/data/CTD/HyperspectralImage.zip.
