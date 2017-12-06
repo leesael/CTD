@@ -1,0 +1,57 @@
+- Name : facebook_data
+- Source : http://socialnetworks.mpi-sws.org/data-wosn2009.html
+- Citation:
+BibTeX
+@inproceedings{viswanath-2009-activity,
+  author = {Bimal Viswanath and Alan Mislove and Meeyoung Cha and Krishna P. Gummadi},
+  title = {On the Evolution of User Interaction in Facebook}, 
+  booktitle = {Proceedings of the 2nd ACM SIGCOMM Workshop on Social Networks (WOSN'09)},
+  location = {Barcelona, Spain},
+  month = {August},
+  year = {2009}
+}
+
+- Mode: 3
+- Format : 
+	1) facebook-links_mapped.tensor: <user1_id> <user2_id> <date> (friendship)
+	2) facebook-wall_mapped.tensor: <user1_id> <user2_id> <date> (post)
+
+- Dimension:
+	1) facebook-links_mapped.tensor: 63,891*63,891*870
+	2) facebook-wall_mapped.tensor: 63,731*63,731*1,503
+
+- Nonzeros:
+	1) facebook-links_mapped.tensor: 1,545,686
+	2) facebook-wall_mapped.tensor: 876,993
+
+- Description : 
+1) List of links
+- facebook-links.txt/facebook-links.txt.anon
+original data
+
+- facebook-links
+format: (user1_id, user2_id, UNIX timestamp)
+user2 appeared in the user1’s friend list. UNIX timestamp: time of link establishment
+(time min: 2004-09-14 13:23:51  time max: 2009-01-22 13:31:31)
+
+- facebook-links_mapped.tensor <user1_id> <user2_id> <date>
+*date: "Y:M:D" ex) 2010-04-02
+Tensor size: 63,891*63,891*870
+
+- facebook-links_date_dic: date dictionary for facebook-links_mapped.tensor.
+
+2) List of wall posts
+- facebook-wall.txt/facebook-wall.txt.anon
+original data
+
+- facebook-wall
+format: (user1_id, user2_id, UNIX timestamp)
+user2 posted on the user1’s friend wall. UNIX timestamp: time of the wall post.
+(time min: 2006-09-05 20:15:29  time max: 2009-01-22 07:15:25)
+
+- facebook-wall_mapped.tensor <user1_id> <user2_id> <date>
+*date: "Y:M:D" ex) 2010-04-02
+Tensor size: 63,731*63,731*1,503
+
+- facebook-wall_date_dic: date dictionary for facebook-wall_mapped.tensor.
+
