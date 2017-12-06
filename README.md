@@ -42,7 +42,7 @@ The package contains the following files:
 
 You need to first download 'Tensor Toolbox' package and add path of the package.
 
-###CTD-S
+1. CTD-S
 
 Type the following command to run CTD-S. 
 [C, U, R, rerr, time, memory_usage] = CTD_S(X, s, alpha);
@@ -51,7 +51,7 @@ This command applies CTD-S on a tensor X with sample size s and mode alpha.
 ex) [C, U, R, rerr, time, memory_usage] = CTD_S(rand(10,20,30), 100, 1);
     : apply CTD-S on random 10 by 20 by 30 dense tensor with sample size 100 and mode 1.
  
-###CTD-D
+2. CTD-D
 
 Type the following command to run CTD-D.
 [R, U, C, time] = CTD_D(dX, R0, U0, C0, d, alpha);
@@ -62,7 +62,7 @@ ex) [C0, U0, R0] = CTD_S(sptenrand([10 20 30], 100), 100, 1);
     [R, U, C, time] = CTD_D(sptenrand([10 20], 10), R0, U0, matricize(C0,1), 1, 1);
     : apply CTD-D on newly arrived tensor with sample size 1 and mode 1. We assume that factors at previous time step is given by CTD-S in this example.
 
-###demo
+3. demo
 
 We also provide a demo file for our method CTD.
 
@@ -74,7 +74,7 @@ Type the following command to run the demo for CTD-D:
 
 	demo_CTD_D
 
-## Dataset
+## Data
 All the data except 'Hyperspectral Image data' used in this paper are included in 'data' folder in this github directory.
 
 You can download 'Hyperspectral Image data' from http://52.32.77.154/repository/isetbio/resources/scenes/hyperspectral/stanford_database/faces3m/LoResFemale4/20160419/LoResFemale4-20160419-mat.mat.
