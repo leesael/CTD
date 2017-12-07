@@ -18,7 +18,7 @@ The source codes used in the paper are available.
 Comparison of our proposed CTD and the existing tensor-CUR. The static method CTD-S outperforms the state of-the-art tensor-CUR in terms of time, memory usage, and accuracy. The dynamic method CTD-D is the fastest. 
 
 |  | Tensor-CUR (Existing) | **CTD-S [Proposed]** | **CTD-D [Proposed]** |
-| :------------: | :------------: | :------------: | :------------: |
+| :------------------: | :--------------: | :--------------: | :--------------: |
 | Interpretability | O | O | O |
 | Time | Fast | Faster | **Fastest** |
 | Memory Usage | Low | **Lower** | Low |
@@ -28,7 +28,7 @@ Comparison of our proposed CTD and the existing tensor-CUR. The static method CT
 
 ## Dataset
 | Name | Structure | Size | Nonzero | Download |
-| :------------: | :------------: | :------------: :------------: | :------------: |
+| :---------------: | :---------------: | :------------------: | :---------: | :---------: |
 | [Facebook-wall](http://socialnetworks.mpi-sws.org/data-wosn2009.html) | User 1 - User 2 - Time | 63,891 &times; 63,890 &times; 1,504 | 738,485 | [[Down](/data/Facebook_wall/facebook_wall_tensor.mat)] |
 | Facebook-wall (synthetic) | User 1 - User 2- Time | 63,891 &times; 63,890 &times; 1,504 | 1,169,656 | [[Down](/data/Facebook_wall/facebook_wall_tensor_synthetic.mat)] |
 | [Hyperspectral Image](http://www.imageval.com/scene-database-4-faces-3-meters/) | X - Y - Frequency | 538 &times; 323 &times; 148 | 25,715,854 | [[Down](https://datalab.snu.ac.kr/data/CTD/HyperspectralImage.zip)] |
