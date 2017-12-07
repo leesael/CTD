@@ -18,7 +18,7 @@ The source codes used in the paper are available.
 Comparison of our proposed CTD and the existing tensor-CUR. The static method CTD-S outperforms the state of-the-art tensor-CUR in terms of time, memory usage, and accuracy. The dynamic method CTD-D is the fastest. 
 
 |  | Tensor-CUR (Existing) | **CTD-S [Proposed]** | **CTD-D [Proposed]** |
-| :------------------: | :--------------: | :--------------: | :--------------: |
+| :---------------------: | :--------------: | :--------------: | :--------------: |
 | Interpretability | O | O | O |
 | Time | Fast | Faster | **Fastest** |
 | Memory Usage | Low | **Lower** | Low |
