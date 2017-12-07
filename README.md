@@ -8,11 +8,11 @@ In this paper, we propose CTD, a fast, accurate, and directly interpretable tens
 ## Paper
 **CTD: Fast, Accurate, and Interpretable Method for Static and Dynamic Tensor Decompositions**  
 Jungwoo Lee, Dongjin Choi, and U Kang.  
-[[pdf](/paper.pdf)]
+[[pdf](https://arxiv.org/abs/1710.03608)]
 
 ## Code
 The source codes used in the paper are available. 
-* CTD-v1.0: [[download](/code/)]
+* CTD-v1.0: [[download](/codes/CTD-v1.0.zip)]
 
 ## Comparison
 Comparison of our proposed CTD and the existing tensor-CUR. The static method CTD-S outperforms the state of-the-art tensor-CUR in terms of time, memory usage, and accuracy. The dynamic method CTD-D is the fastest. 
@@ -28,14 +28,14 @@ Comparison of our proposed CTD and the existing tensor-CUR. The static method CT
 
 ## Dataset
 | Name | Structure | Size | Nonzero | Download |
-| :---------------: | :---------------: | :------------------: | :---------: | :---------: |
+| :---------------: | :---------------: | :------------------: | ---------: | :---------: |
 | [Facebook-wall](http://socialnetworks.mpi-sws.org/data-wosn2009.html) | User 1 - User 2 - Time | 63,891 &times; 63,890 &times; 1,504 | 738,485 | [[Down](/data/Facebook_wall/facebook_wall_tensor.mat)] |
 | Facebook-wall (synthetic) | User 1 - User 2- Time | 63,891 &times; 63,890 &times; 1,504 | 1,169,656 | [[Down](/data/Facebook_wall/facebook_wall_tensor_synthetic.mat)] |
 | [Hyperspectral Image](http://www.imageval.com/scene-database-4-faces-3-meters/) | X - Y - Frequency | 538 &times; 323 &times; 148 | 25,715,854 | [[Down](https://datalab.snu.ac.kr/data/CTD/HyperspectralImage.zip)] |
 | [Infectious](http://konect.uni-koblenz.de/networks/sociopatterns-infectious) | Person 1 - Person 2 - Time | 407 &times; 410 &times; 1,392 | 17,298 | [[Down](/data/Infectious/infectious.mat)] |
 | [Hypertext 2009](http://www.sociopatterns.org/datasets/hypertext-2009-dynamic-contact-network/) | Attendee 1 - Attendee 2 - Time | 112 &times; 113 &times; 5,246 | 20,818 | [[Down](/data/Hypertext_2009/hypertext_2009.mat)] |
 | [Haggle](http://konect.uni-koblenz.de/networks/contact) | Person 1 - Person 2 - Time | 77 &times; 274 &times; 1,567 | 27,972 | [[Down](/data/Haggle/haggle.mat)] |
-| [CAIDA](http://www.caida.org/data/CAIDA) | Source IP - Destination IP - Time | 189 &times; 189 &times; 1,000 | 20,511 | [[Down](/data/CAIDA/CAIDA_part.mat)] |
+| [CAIDA](http://www.caida.org/home/) | Source IP - Destination IP - Time | 189 &times; 189 &times; 1,000 | 20,511 | [[Down](/data/CAIDA/CAIDA_part.mat)] |
 | CAIDA | Source IP - Destination IP - Time | 189 &times; 189 &times; 1,000 | 46,102 | [[Down](/data/CAIDA/CAIDA_part_synthetic.mat)] |
 
 ## People
