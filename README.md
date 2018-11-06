@@ -6,9 +6,9 @@ How can we find patterns and anomalies in a tensor, or multi-dimensional array, 
 In this paper, we propose CTD, a fast, accurate, and directly interpretable tensor decomposition method based on sampling. CTD-S, the static version of CTD, provably guarantees a high accuracy that is up to 11x more accurate than that of the state-of-the-art method experimentally. Also, CTD-S is made up to 2.3x faster, and up to 24x more memory-efficient than the state-of-the-art method by removing redundancy. CTD-D, the dynamic version of CTD, is the first interpretable dynamic tensor decomposition method ever proposed. Also, it is made up to 82x faster than already fast CTD-S by exploiting factors at previous time step and by reordering operations. With CTD, we demonstrate how the results can be effectively interpreted in the online distributed denial of service (DDoS) attack detection and online troll detection.
 
 ## Paper
-**CTD: Fast, Accurate, and Interpretable Method for Static and Dynamic Tensor Decompositions**  
-Jungwoo Lee, Dongjin Choi, and U Kang.  
-[[pdf](https://arxiv.org/abs/1710.03608)]
+Please use the following citation for CTD:
+
+Lee, J., Choi, D., & Sael, L. (2018). **CTD: Fast, accurate, and interpretable method for static and dynamic tensor decompositions.** PloS One, 13(7), e0200579. [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0200579)
 
 ## Code
 The source codes used in the paper are available. 
