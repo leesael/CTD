@@ -41,4 +41,4 @@ Comparison of our proposed CTD and the existing tensor-CUR. The static method CT
 ## People
 [Jungwoo Lee](http://datalab.snu.ac.kr/~ljw9111/) (Seoul National University)  
 [Dongjin Choi](http://datalab.snu.ac.kr/~skywalker5) (Seoul National University)  
-[Lee Sael](http://www3.cs.stonybrook.edu/~sael/) (SUNY Korea)
+[Lee Sael](https://leesael.github.io/) (Seoul National University)
